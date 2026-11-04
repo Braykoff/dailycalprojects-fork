@@ -1,0 +1,1 @@
+function e(){let e=new Set,t=!0;return{listen:(t,n,r,i)=>{t.addEventListener(n,r,i);let a=()=>{t.removeEventListener(n,r,i),e.delete(a)};return e.add(a),a},frame:n=>{let r=requestAnimationFrame(()=>{e.delete(i),t&&n()}),i=()=>cancelAnimationFrame(r);e.add(i)},dispose(){t=!1,e.forEach(e=>e()),e.clear()}}}export{e as t};

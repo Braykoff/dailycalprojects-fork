@@ -1,0 +1,1 @@
+var e=`/dailycalprojects-fork/_astro/dclogo.MPZeD1FQ.png`;export{e as t};

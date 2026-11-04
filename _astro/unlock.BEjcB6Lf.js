@@ -1,0 +1,1 @@
+var e=e=>[...e].reduce((e,t)=>Math.imul(e^t.charCodeAt(0),16777619)>>>0,2166136261),t=2002457953,n=()=>typeof window<`u`&&[...new URLSearchParams(window.location.search).keys()].some(n=>e(n)===t);export{n as t};

@@ -1,0 +1,1 @@
+var e=`/dailycalprojects-fork/_astro/2-sexy-map-sattelite.o206Vq1S.jpg`;export{e as t};

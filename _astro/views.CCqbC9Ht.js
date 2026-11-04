@@ -1,0 +1,1 @@
+function e(e,t={}){let n=new URLSearchParams(t);e!==`story`&&n.set(`view`,e);let r=n.toString();return r?`?${r}`:`?`}function t(){let e=new URLSearchParams(window.location.search),t=e.get(`view`);return{view:[`dashboard`,`table`].includes(t)?t:`story`,caseNumber:e.get(`case`)||``}}export{e as n,t};
